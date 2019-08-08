@@ -1,3 +1,4 @@
 class Anagram
   
-  attr_accessor: 
+  attr_accessor: word
+  

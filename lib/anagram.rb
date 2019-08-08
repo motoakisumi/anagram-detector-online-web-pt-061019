@@ -7,4 +7,5 @@ class Anagram
   end
   
   def match(array)
+    all_comb = word.split("").permutation.map &:join
     

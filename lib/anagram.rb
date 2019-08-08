@@ -11,3 +11,4 @@ class Anagram
     match = array & comb
     match
   end
+end

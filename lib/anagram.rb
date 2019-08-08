@@ -9,4 +9,5 @@ class Anagram
   def match(array)
     comb = @word.split("").permutation.map &:join
     match = array & comb
-    
+    match
+  end

@@ -8,4 +8,4 @@ class Anagram
   
   def match(array)
     all_comb = @word.split("").permutation.map &:join
-    
+    match = array & 
